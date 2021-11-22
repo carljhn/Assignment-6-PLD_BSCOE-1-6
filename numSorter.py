@@ -62,3 +62,10 @@ else:
                         print(num3, num4, num1, num2)
                     else:
                         print(num3, num4, num2, num1)
+        else:
+            if num4>=num3 and num4>=num2 and num4>=num1:
+                if num1>num2 and num1>num3:
+                    if num2>=num3:
+                        print(num4, num1, num2, num3)
+                    else: #num3>=num2
+                        print(num4, num1, num3, num2)
