@@ -81,3 +81,14 @@ if ans==total:
     score+=1
 else:
     print("Incorrect, the right answer is", total)
+
+num1=random.randint(0, 99)
+num2=random.randint(0, 99)
+ans=int(input(f"Question 8. {num1}+{num2}="))
+total=num1+num2
+score+=0
+if ans==total:
+    print("Correct!")
+    score+=1
+else:
+    print("Incorrect, the right answer is", total)
