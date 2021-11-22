@@ -114,3 +114,9 @@ if ans==total:
     score+=1
 else:
     print("Incorrect, the right answer is", total)
+
+print("Thank you for answering, you got", score,"/10")
+if score>=7:
+    print("Congratulations, you passed!")
+else:
+    print("Sorry, you did not passed. Try again.")
